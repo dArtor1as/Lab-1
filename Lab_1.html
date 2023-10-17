@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Звіти з лабораторних робіт</title>
+    <style>
+         header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-right: 0;
+        }
+        .fillling
+            {
+				color: rgb(0, 0, 0);
+              display: none;
+            }
+        .centered {
+            flex: 1;
+        }
+        .screen-shors{
+	width: 50%;
+        }
+        #student-photo {
+            order: 1;
+            margin-left: 10%;
+        }
+
+        .lab-btn {
+            text-align: center;
+            display: inline-block;
+            padding: 3px;
+            min-height: 2.5em;
+            width: 10%;
+            border: solid 1px;
+            border-radius: 8px;
+        }
+
+        #lab-btn-section {
+            text-align: center;
+            text-decoration: none;
+        }
+
+      
+        .name {
+              display: none;
+            }
+        .menu-btn {
+            
+            width: 15%;
+            border: solid 1px;
+            border-radius: 10px;
+            height: 2.5em;
+            margin: 2px;
+            text-decoration: none;
+            cursor: pointer;
+            float: left;
+			 
+        }
+        .data {
+				min-height: 450px;
+				padding: 2px 0;
+				
+}
+.chackers {
+	float: left;
+			  clear: left;
+
+}
+.hidden-link {
+    display: none;
+}
+
+#_1:checked ~ .filling .hidden-link {
+    display: block;
+}
+			
+            #_2:checked~#x2 {
+              display: block;
+            }
+
+            #_3:checked~#x3 {
+              display: block;
+            }
+            #_4:checked~#x4 {
+              display: block;
+            }
+            #_5:checked~#x5 {
+              display: block;
+            }
+            #_6:checked~#x6 {
+              display: block;
+            }
+            #_7:checked~#x7 {
+              display: block;
+            }
+            #_8:checked~#x8 {
+              display: block;
+            }
+            #_9:checked~#x9 {
+              display: block;
+            }
+      
+      
+
+    </style>
+    </head>
+    <body>
+        
+    
+        <header>
+            <span>
+                <h1 class="centered">Звіти з лабораторних робіт</h1>
+                <h2 class= "centered">З ДИСЦИПЛІНИ "ІНТЕРНЕТ ТЕХНОЛОГІЇ ТА ПРОЄКТУВАННЯ ВЕБ-ЗАСТОСУВАНЬ"</h2>
+                <h3 class="centered">Студент групи ІС-23 Деундяк Артур</h3>
+            </span>
+    
+            <img src="myphoto.jpg" id="student-photo" style="width: 128px; height: 128px;">
+        </header>
+    </header>
+    <section id="lab-btn-section">
+        <a href="Lab_1.html"> <span class="lab-btn"> Лабораторна робота №1</span></a>
+        <a href="Lab-2.html"> <span class="lab-btn"> Лабораторна робота №2</a>
+        <a href="#3"> <span class="lab-btn"> Лабораторна робота №3</a>
+        <a href="#4"> <span class="lab-btn"> Лабораторна робота №4</a>
+        <a href="#5"> <span class="lab-btn"> Лабораторна робота №5</a>
+        <a href="#6"> <span class="lab-btn"> Лабораторна робота №6</a>
+        <a href="#7"> <span class="lab-btn"> Лабораторна робота №7</a>
+        <a href="#8"> <span class="lab-btn"> Лабораторна робота №8</a>
+        <a href="#9"> <span class="lab-btn"> Лабораторна робота №9</a>
+    </section>
+
+    <div class="data">
+        <br>
+                    <input class="chackers" type="radio" name="type" id="_1" />
+                            <label class="menu-btn" for="lab1">Опис предметного середовища</label>
+                            <input  class="chackers" type="radio" name="type" id="_2" />
+                            <label class="menu-btn" for="lab1">Тема Мета Місце розташування лаби №1</label>
+                            <input  class="chackers" type="radio" name="type" id="_3" />
+                            <label class="menu-btn" for="lab1"> СТРУКТУРА ДОКУМЕНТА</label>
+                            <input  class="chackers" type="radio" name="type" id="_4" />
+                            <label class="menu-btn" for="lab1">HTML-код Таблиці</label>
+                            <input  class="chackers" type="radio" name="type" id="_5" />
+                            <label class="menu-btn" for="lab1">HTML-код Зображення</label>
+                            <input  class="chackers" type="radio" name="type" id="_6" />
+                            <label class="menu-btn" for="lab1"> HTML-код Форми</label>
+                            <input  class="chackers" type="radio" name="type" id="_7" />
+                            <label class="menu-btn" for="lab1">HTML-код Списку</label>
+                            <input class="chackers"  type="radio" name="type" id="_8" />
+                            <label class="menu-btn" for="lab1">HTML-код Посилання</label>
+                            <input class="chackers"  type="radio" name="type" id="_9" />
+                            <label class="menu-btn" for="lab1">Висновки</label>
+        
+                
+                            <span class="filling" id="x1">
+                                <a href="opys.predm.obl.html" class="hidden-link">Посилання</a>
+                            </span>
+        <span class="fillling" id="x2">
+            <a href="opys.predm.obl.html" class="hidden-link">Посилання</a>
+        </span>
+        <span class="fillling" id="x3"> </span>
+        <span class="fillling" id="x4">
+          
+          <img  src="images/screenshot_html_table.jpg" alt="List" class="screen-shors" >
+          
+     
+        </span>
+        <span class="fillling" id="x5">
+          <img  src="images/screenshot_html_photo.jpg" alt="List" class="screen-shors" >
+          
+        
+        </span>
+        <span class="fillling" id="x6">
+          
+          <img  src="images/screenshot_html_form.jpg" alt="List" class="screen-shors" ><br>
+        </span>
+        <span class="fillling" id="x7">
+           Перший список<br>
+          <img  src="images/screenshot_html_list(1).jpg" alt="List" class="screen-shors" ><br>
+          Другий список<br>
+          <img  src="images/screenshot_html_list(2).jpg" alt="List" class="screen-shors" >
+        </span>
+        <span class="fillling" id="x8">
+            Перше посилання<br>
+            <img  src="images/screenshot_html_links(1).jpg" alt="List" class="screen-shors" ><br>
+            Друге посилання<br>
+            <img  src="images/screenshot_html_links(2).jpg" alt="List" class="screen-shors" >
+        </span>
+        <span class="fillling" id="x9">   Висновок цієї лабораторної роботи полягає у наступному: під час виконання цього завдання я здобув навички створення основної структури веб-сторінки з використанням HTML. Я успішно вставив зображення, таблиці, списки, форму та посилання на сторінку, що описує вибрану тему. Цей досвід допоміг мені краще зрозуміти, як організовувати та структурувати вміст на веб-сторінці. Також я опанував використання різних HTML-тегів для створення різноманітних типів контенту. Наприклад, я використовував теги img для вставки зображень, а також теги table, tr і td для формування таблиць. Теги ul, ol і li використовувались для створення списків, а теги form, input і label - для створення форм. Додатково я навчився додавати гіперпосилання на інші веб-сторінки за допомогою тега <a>. Це надзвичайно корисно для зручної навігації між різними сторінками веб-додатку.
+        </span>
+
+
+        </div>
+
+
+
+   
+    </body>
+    </html>
