@@ -1,0 +1,58 @@
+:root{
+	--padd: 15px;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+table{
+	width: 100%;
+	background-color: rgb(255, 255, 255);	
+}
+/*.back{
+	background-image: url(background_image.avif);	
+}
+*/
+table, th, td, tr {
+  border: 1px solid rgb(127, 23, 23);
+}
+.search-input{
+	margin-top: 10px;
+	height: 40px;
+	width: 95%;
+	font-size: 24;
+}
+.lupa{
+	margin-top: 10px;
+}
+.logo {
+	float: right;
+}
+
+.page {
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: rgb(134, 200, 228);
+	padding: var(--padd);
+}
+/*
+th:hover {
+	background-color: ghostwhite;
+}
+*/
+.new-posts{	
+	
+	height: auto;
+	width: 100%;
+	background-color: ghostwhite(255, 255, 255);
+}
+.top-categories{	
+	
+	height: auto;
+	width: 100%;
+	background-color: ghostwhite(159, 90, 112);
+}
+
+
